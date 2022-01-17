@@ -3,16 +3,18 @@
 discuss link: https://github.com/webpack-contrib/stylelint-webpack-plugin/pull/257
 
 
-### Scripts
+### Steps
 
 ```bash
 $ yarn install
-$ npx webpack ./src/index.js --mode=development
+$ npx webpack ./src/index.js --mode=development --watch
 ```
+
+Change `test.css` file content
 
 ### Screenshot preview of the problem
 
-<img width="848" alt="image" src="https://user-images.githubusercontent.com/8198408/149802069-c7c2393a-2f2c-4972-b2f1-9f77a2eb808d.png">
+<img width="1058" alt="image" src="https://user-images.githubusercontent.com/8198408/149808877-bff6d482-119c-47d0-95da-d9e77f28f593.png">
 
 ### Reason
 
